@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Quantox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <span class="main-day" id="time"></span><br>
+        </div>
+        <div class="days" id="main-div"> 
+             <!-- here we append generated html from JS file -->
+        </div>
+        <div class="item-details"> 
+            <!-- here we append generated html from single elemnet JS file -->
+       </div>
+    </div>
+    <input type="hidden" id="temp-unit" value="c"> 
+    <input type="hidden" id="speed-unit" value="m">
+
+    <div class="convertBtn">
+        <button onclick="convertTemperature(this)" id="convertTempButton"> Convert to Kelvin </button>
+        <button onclick="convertSpeed(this)" id="convertSpeedButton"> Convert to km/h </button>
+    </div>
+    <script type='text/javascript' src="app.js"></script>
+</body>
+</html>

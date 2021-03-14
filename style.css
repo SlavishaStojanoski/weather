@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #4f4747;
+    background-image: url('./image/weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.weather {
+      font-size: 4em;
+      font-weight: bold;
+      margin: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #636161;
+      text-align: center;
+}
+.days .days-inline {
+    display: inline-block;
+    line-height: 50px;
+    margin: 5px 20px;
+    padding: 5px;
+    border: 4px solid white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.days-inline ul li {
+    font-size: 1.4em;
+    color: #1959ac;
+    list-style-type: none;
+}
+
+.fa-rotate-45 {
+    transform: rotate(45deg);
+}
+
+.btn {
+    font-size: 2em;
+    padding: 2px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #6d6161;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.dayStyle {
+    margin: 15px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.convertBtn {
+    margin-bottom: 400px;
+}
+
+.convertBtn button {
+    margin: 20px 0;
+    padding: 5px 12px;
+    background-color: #6d6161;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
